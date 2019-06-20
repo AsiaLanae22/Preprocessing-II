@@ -166,7 +166,7 @@ img {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   color: black;
 }
 .footer {
