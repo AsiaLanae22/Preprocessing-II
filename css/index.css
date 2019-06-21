@@ -198,7 +198,11 @@ nav a {
 .home .header {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
-  border-bottom-width: 100%;
+}
+.home .welcome-to {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+  margin-top: 25px;
 }
 .home .content-section {
   margin: 30px 0;
