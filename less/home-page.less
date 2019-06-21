@@ -2,10 +2,15 @@
   .header{
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
-   
+    
+    
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
-.welcome-to{
+  .welcome{
   padding-bottom: 30px;
   border-bottom: 2px dashed @navigation-border;
   margin-top: 25px;
@@ -30,6 +35,11 @@
 
       img {
         border-radius: 10px;
+
+        @media @mobile{
+        display: flex;
+        }
+      
       }
     }
   }
@@ -63,20 +73,20 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
-
+  
     .destination {
       width: 30%;
       margin-bottom: 30px;
     }
 
     .btn{
-      background-color: blue;
+      background-color: teal;
       padding: 8px;
       line-height: 18px;
       text-align: center;
       border-radius: 15px;
-      .btn(Verdana, #fff, 1.2rem);
+      .btn(Verdana, rgb(2, 1, 1), 1.2rem);
     }
 
   }
-}// home
+} 
