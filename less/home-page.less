@@ -1,21 +1,19 @@
 .home {
   
-  @media @mobile {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
+  
 
   .header{
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
     
+   
   }
 
   .welcome{
   padding-bottom: 30px;
   border-bottom: 2px dashed @navigation-border;
   margin-top: 25px;
+  color: @shark;
 }
 
   .content-section {
@@ -23,6 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    color: @shark;
 
    
     
@@ -37,9 +36,9 @@
 
       img {
         border-radius: 10px;
-
         @media @mobile{
         display: flex;
+        align-items: center;
         }
       
       }
@@ -87,7 +86,7 @@
       text-align: center;
       border-radius: 10px;
       width: 20rem;
-      .btn(Verdana, #17A2B8, 1.2rem);
+      .btn(Verdana, @eastern-blue, 1.2rem);
     }
 
   }
