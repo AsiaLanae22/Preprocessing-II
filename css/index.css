@@ -199,12 +199,6 @@ nav a {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width 500px) {
-  .home .header {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
 .home .welcome {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
@@ -262,12 +256,12 @@ nav a {
   margin-bottom: 30px;
 }
 .home .content-pick .btn {
-  background-color: teal;
   padding: 8px;
   line-height: 18px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
+  width: 20rem;
   font-family: Verdana;
-  color: #020101;
+  background-color: #17A2B8;
   font-size: 1.2rem;
 }
